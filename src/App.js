@@ -18,6 +18,8 @@ class App extends Component {
       return p.id === id;
     });
 
+    // console.log(personIndex);
+
     const person = {
       ...this.state.persons[personIndex],
     };
